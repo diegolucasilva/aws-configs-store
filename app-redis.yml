@@ -31,9 +31,11 @@ spring:
         database: 10
 
 aws:
+    serviceEndpoint: http://localhost:4566
     secretsManager:
         secretName: dev/redis/auth
         region: region
+    
  
 ---
 spring:
