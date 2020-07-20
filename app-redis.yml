@@ -50,4 +50,4 @@ aws:
     secretsManager:
         endpoint: https://vpce-0519a6c2863862444-inb5op4x.secretsmanager.sa-east-1.vpce.amazonaws.com
         secretName: dev/redis/auth
-        region: us-east-1
+        region: sa-east-1
