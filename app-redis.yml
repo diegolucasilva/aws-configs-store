@@ -31,8 +31,8 @@ spring:
         database: 10
 
 aws:
-    serviceEndpoint: http://localhost:4566
     secretsManager:
+        serviceEndpoint: http://localhost:4566
         secretName: dev/redis/auth
         region: sa-east-1
     
@@ -48,5 +48,6 @@ spring:
 
 aws:
     secretsManager:
+        serviceEndpoint: https://vpce-0519a6c2863862444-inb5op4x.secretsmanager.sa-east-1.vpce.amazonaws.com
         secretName: dev/redis/auth
         region: us-east-1
