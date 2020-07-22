@@ -32,7 +32,7 @@ spring:
 
 aws:
     secretsManager:
-        endpoint: http://localhost:4566
+        endpoint: http://localstack_main:4566
         secretName: dev/redis/auth
         region: sa-east-1
     
