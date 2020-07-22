@@ -41,8 +41,8 @@ aws:
 spring:
     profiles: develop
     redis:
-        host: ${REDIS_HOST:localhost} 
-        port: ${REDIS_PORT:6379}
+        host: master.redis-cluster-re2.xqc1is.sae1.cache.amazonaws.com
+        port: 6379
         ssl: true
         database: 10
 
